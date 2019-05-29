@@ -14,5 +14,5 @@ Create Spaces
 List spaces / list spaces in particular regions
 Hack my script[cloud-manage.py]
 
-Kindly email me for bugs/features: xcoder1122@gmail.com
+Kindly email me for bugs/features
 </pre>
