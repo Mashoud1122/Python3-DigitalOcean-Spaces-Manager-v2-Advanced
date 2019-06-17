@@ -1,5 +1,5 @@
 # Python3-DigitalOcean-Spaces-Manager-v2-Advanced
-Simple Pyhon3 module to help manage your spaces
+Simple Pyhon3 module to help manage your spaces / cloud
 <h1>DigitalOcean Spaces Made Easier and secured</h1>
 <p></p>
 <pre>
