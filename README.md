@@ -9,9 +9,13 @@ cloud-manage.py - test of spaces module
 You can create your own amazing code just by importing the space module
 
 Encrypt and Upload
-Download
+Download files
+Upload files
+Delete Files
 Create Spaces
 List spaces / list spaces in particular regions
+List files
+and more
 Hack my script[cloud-manage.py]
 
 Kindly email me for bugs/features
