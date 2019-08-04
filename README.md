@@ -6,6 +6,14 @@ Simple Pyhon3 module to help manage your spaces / cloud
 Most explanations in cloud-manage.py
 cloud-manage.py - test of spaces module
 
+<strong>NB: Modify these in spaces.py:
+ #Key-ID
+ key_id = str("Your-id-or-key")
+
+#your secret key
+secret_access_key = str("Your-secret-key")
+</strong>
+
 You can create your own amazing code just by importing the space module
 
 Encrypt and Upload
