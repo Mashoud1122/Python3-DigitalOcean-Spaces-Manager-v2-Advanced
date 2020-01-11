@@ -125,6 +125,19 @@ def upload_file(space_name, region_name, local_file, upload_name):
     return message
     #upload_file('my-space-name', 'sfo2', 'test.txt', 'me1.txt')
 
+def upload_file_public(space_name, region_name, local_file, upload_name):
+    s3 = space_connect(region_name)
+    try:
+        s3.upload_file(local_file, space_name, upload_name, ExtraArgs={'ACL': 'public-read'})
+        message = "Success"
+        return message
+        # pass
+    except Exception as e:
+        message = "Error occured. Check Space name, etc"
+
+    return message
+    #upload_file('my-space-name', 'sfo2', 'test.txt', 'me1.txt')
+
 def create_space(name, region):
     region = region.lower()
     if region in regions:
